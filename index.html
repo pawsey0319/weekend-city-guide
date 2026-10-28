@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>周末城市探索指南</title>
+<meta name="description" content="根据偏好、天气和预算推荐本地周末活动，支持组队出发、打卡记录和攻略分享。">
+<meta name="theme-color" content="#1f8a70">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A7%AD%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/ui.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#/"><span class="logo">🧭</span><span>周末城市探索指南</span></a>
+  <nav id="nav" class="nav" aria-label="主导航">
+    <a href="#/" data-r="discover"><i>🔎</i><span>发现</span></a>
+    <a href="#/plan" data-r="plan"><i>🗓️</i><span>周末计划</span></a>
+    <a href="#/team" data-r="team"><i>👥</i><span>组队</span></a>
+    <a href="#/checkin" data-r="checkin"><i>📍</i><span>打卡</span></a>
+    <a href="#/guides" data-r="guides"><i>📖</i><span>攻略</span></a>
+    <a href="#/insights" data-r="insights"><i>💬</i><span>用户声音</span></a>
+  </nav>
+</header>
+<main id="view" class="wrap" tabindex="-1"></main>
+<footer class="foot wrap">
+  <p>活动信息为演示用示例数据，出发前请以官方渠道为准。你的偏好、组队与打卡记录只保存在本机浏览器。</p>
+</footer>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="js/util.js"></script>
+<script src="js/store.js"></script>
+<script src="js/data-core.js"></script>
+<script src="js/data-sh.js"></script>
+<script src="js/data-bj.js"></script>
+<script src="js/data-gz.js"></script>
+<script src="js/data-cd.js"></script>
+<script src="js/data-guides.js"></script>
+<script src="js/weather.js"></script>
+<script src="js/recommend.js"></script>
+<script src="js/poster.js"></script>
+<script src="js/ui-event.js"></script>
+<script src="js/v-discover.js"></script>
+<script src="js/v-plan.js"></script>
+<script src="js/v-team.js"></script>
+<script src="js/v-team-detail.js"></script>
+<script src="js/v-checkin.js"></script>
+<script src="js/v-guides.js"></script>
+<script src="js/v-insights.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
